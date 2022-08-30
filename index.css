@@ -1,0 +1,19 @@
+#body{ margin: 0; 
+    padding: 0; border: 0; 
+    background-color:#ffffff; 
+    font-family: 'Ubuntu', sans-serif;}
+
+/* CABEÇALHO  */
+#header{margin:auto;
+font-size: 25px;
+color: black;
+background-color: #9FC131;}
+#itemnav1{ font-size: 25px;
+padding-left: 30px;
+padding-right: 30px;}
+#itemnav2{
+    padding-left: 30px;
+    padding-right: 60px;
+}
+#itemnav3{background-color: #005C53; color: white;}
+#itemnav3 hover{background-color: #005C53;}
