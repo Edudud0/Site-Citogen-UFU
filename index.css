@@ -1,19 +1,46 @@
 #body{ margin: 0; 
     padding: 0; border: 0; 
-    background-color:#ffffff; 
-    font-family: 'Ubuntu', sans-serif;}
+    background-color: #A3A1A8;}
 
 /* CABEÇALHO  */
-#header{margin:auto;
-font-size: 25px;
-color: black;
-background-color: #9FC131;}
-#itemnav1{ font-size: 25px;
-padding-left: 30px;
-padding-right: 30px;}
-#itemnav2{
-    padding-left: 30px;
-    padding-right: 60px;
-}
-#itemnav3{background-color: #005C53; color: white;}
-#itemnav3 hover{background-color: #005C53;}
+#header{height: 80px;
+width: 100%;
+background-color: #09181F;
+margin: auto;
+position: relative;
+top: 0;}
+/* DENTRO DO CABEÇALHO */
+#menu{width: 80%;
+    border: 20%;
+display: flex;
+justify-content: space-between;
+margin: auto;
+padding-top: 25px;}
+.menu-item{color: white;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+text-decoration: none;}
+.menu-nome{color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;}
+.dropbtn{background-color: transparent;
+        border: transparent;}
+.menu-item:hover{color: white;}
+
+/* RESPONSIVIDADE CABEÇALHO */
+@media only screen and (max-width:540px) {.menu-item{display: none;}}
+@media only screen and (min-width: 541px) {.dropdown{ display: none;}}
+
+/* RESPONSIVIDADE BOTÃO (DROPDWON) */
+
+
+/* APRESENTAÇÃO DE SLIDES */
+.txtslides{color: white;
+font-size: 35px;
+font-weight: 700;
+font-family: 'Inter', sans-serif;}
+.Pslides{color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;}
