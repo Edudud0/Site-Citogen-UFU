@@ -11,7 +11,6 @@ position: relative;
 top: 0;}
 /* DENTRO DO CABEÇALHO */
 #menu{width: 80%;
-    border: 20%;
 display: flex;
 justify-content: space-between;
 margin: auto;
@@ -19,21 +18,44 @@ padding-top: 25px;}
 .menu-item{color: white;
 font-family: 'Inter', sans-serif;
 font-size: 20px;
-text-decoration: none;}
+text-decoration: none;
+margin: auto;}
 .menu-nome{color: white;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    text-decoration: none;}
+    text-decoration: none;
+    margin: auto;}
 .dropbtn{background-color: transparent;
         border: transparent;}
 .menu-item:hover{color: white;}
+.dropdown{background-color: #09181F;    width: auto;}
 
 /* RESPONSIVIDADE CABEÇALHO */
 @media only screen and (max-width:540px) {.menu-item{display: none;}}
 @media only screen and (min-width: 541px) {.dropdown{ display: none;}}
-
+@media only screen and (min-width: 541px) {.dropbtn{ display: none;}}
 /* RESPONSIVIDADE BOTÃO (DROPDWON) */
-
+.dropdown {position: relative;
+    display: inline-block;}
+  
+.dropdown-content {display: none;
+    position: absolute;
+    background-color: #09181F;
+    width: 110vw;
+    margin-left: -20vw;
+    z-index: 2;}
+.dropdown-content a {padding-left: 54.5vw;
+    padding-top: 12px;
+    text-decoration: none;
+    display: block;}
+  
+.dropdown-content a:hover {background-color: #09181F}
+  
+.dropdown:hover .dropdown-content {
+    display: block;}
+  
+.dropdown:hover .dropbtn {
+    background-color: none;}
 
 /* APRESENTAÇÃO DE SLIDES */
 .txtslides{color: white;
