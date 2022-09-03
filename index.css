@@ -1,6 +1,7 @@
 #body{ margin: 0; 
     padding: 0; border: 0; 
-    background-color: #A3A1A8;}
+    background-color: #A3A1A8;
+    font-family: 'Inter', sans-serif;}
 
 /* CABEÇALHO  */
 #header{height: 80px;
@@ -66,3 +67,25 @@ font-family: 'Inter', sans-serif;}
     font-size: 30px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;}
+
+/* CAIXA DE INFORMAÇÃO */
+#txt{font-family: 'Roboto', sans-serif;}
+#txt1{color: black;
+    text-align: center;
+    font-weight: 500;}
+#txt2{color: black;
+    text-align: center;
+    font-size: 18x;
+    font-weight: 500;}
+#txt3{color: black;}
+
+ /*RODAPÉ  */
+ #rodape{width: 100%;
+    height: 80px;
+    background-color: #09181F;
+    text-align: center;
+    border-bottom: #09181F 20px;}
+.txtrdp{padding-top: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;}
