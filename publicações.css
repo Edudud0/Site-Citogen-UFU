@@ -1,0 +1,75 @@
+#body{ margin: 0; 
+    padding: 0; border: 0; 
+    background-color: #A3A1A8;
+    font-family: 'Inter', sans-serif;}
+
+/* CABEÇALHO  */
+#header{height: 80px;
+width: 100%;
+background-color: #09181F;
+margin: auto;
+position: relative;
+top: 0;}
+/* DENTRO DO CABEÇALHO */
+#menu{width: 80%;
+display: flex;
+justify-content: space-between;
+margin: auto;
+padding-top: 25px;}
+.menu-item{color: white;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+text-decoration: none;
+margin: auto;}
+.menu-nome{color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;}
+.dropbtn{background-color: transparent;
+        border: transparent;}
+.menu-item:hover{color: white;}
+.dropdown{background-color: #09181F;    width: auto;}
+
+/* RESPONSIVIDADE CABEÇALHO */
+@media only screen and (max-width:540px) {.menu-item{display: none;}}
+@media only screen and (min-width: 541px) {.dropdown{ display: none;}}
+@media only screen and (min-width: 541px) {.dropbtn{ display: none;}}
+/* RESPONSIVIDADE BOTÃO (DROPDWON) */
+.dropdown {position: relative;
+    display: inline-block;}
+  
+.dropdown-content {display: none;
+    position: absolute;
+    background-color: #09181F;
+    width: 110vw;
+    margin-left: -20vw;
+    z-index: 2;}
+.dropdown-content a {padding-left: 54.5vw;
+    padding-top: 12px;
+    text-decoration: none;
+    display: block;}
+  
+.dropdown-content a:hover {background-color: #09181F}
+  
+.dropdown:hover .dropdown-content {
+    display: block;}
+  
+.dropdown:hover .dropbtn {
+    background-color: none;}
+
+/* ESPAÇO */
+
+
+/* ESPAÇO */
+
+ /*RODAPÉ  */
+ #rodape{width: 100%;
+    height: 80px;
+    background-color: #09181F;
+    text-align: center;
+    border-bottom: #09181F 20px;}
+.txtrdp{padding-top: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;}
