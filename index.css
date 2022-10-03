@@ -69,6 +69,7 @@ font-family: 'Inter', sans-serif;}
     font-family: 'Inter', sans-serif;}
 
 /* CAIXA DE INFORMAÇÃO */
+.caixatext{background-color: white;}
 #txt{font-family: 'Roboto', sans-serif;}
 #txt1{color: black;
     text-align: center;
