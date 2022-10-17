@@ -60,7 +60,7 @@ margin: auto;}
 
     /* CAIXA PARA DESCRIÇÃO E FOTO*/
 #caixa{background-color: white;}
-.titulo{color: black;}
+.titulo{color: black; }
 .info{color: black;
 font-size: 17px;}
 

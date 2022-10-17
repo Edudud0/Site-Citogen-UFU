@@ -58,31 +58,30 @@ margin: auto;}
 .dropdown:hover .dropbtn {
     background-color: none;}
 
-/* APRESENTAÇÃO DE SLIDES */
-.txtslides{color: white;
-font-size: 35px;
-font-weight: 700;
-font-family: 'Inter', sans-serif;}
-.Pslides{color: white;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;}
+/* CAIXA COM INFOS */
+.info{background-color: white;}
+.titulo{color: black;
+        font-size:26px; font-weight: bold;}
+.infotxt{color: black;
+    font-size: 18px;}
 
-/* CAIXA DE INFORMAÇÃO */
-.caixatext{background-color: white;}
-#txt{font-family: 'Roboto', sans-serif;}
-#txt1{color: black;
-    text-align: center;
-    font-weight: 500;}
-#txt2{color: black;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;}
-#txt3{color: black;
-    font-size: 17px;}
+/* GOOGLE MAPS */
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
 
- /*RODAPÉ  */
- #rodape{width: 100%;
+/*RODAPÉ  */
+#rodape{width: 100%;
     height: 80px;
     background-color: #09181F;
     text-align: center;
