@@ -58,8 +58,9 @@ margin: auto;}
 .dropdown:hover .dropbtn {
     background-color: none;}
 
-/* ESPAÇO */
-
+/* CAIXA PARA OS ARTIGOS */
+#card-txt{font-size: 17px; font-weight: 600;}
+#card-txt2{font-size: 14px; font-weight: 400;}
 
 /* ESPAÇO */
 
